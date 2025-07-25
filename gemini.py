@@ -2,11 +2,11 @@ import google.generativeai as genai
 from serpapi import GoogleSearch
 
 
-genai.configure(api_key="AIzaSyAyY1oNzpKdDMOd_gqqsCvZjVYmlWm0hX0")
+genai.configure(api_key="[Api Key]")
 model = genai.GenerativeModel("gemini-2.0-flash")
 
 
-serpapi_key ="f333e488c5ce120863bd2c0fcf6f326f2109b982b5a127136c071b555243b918"
+serpapi_key ="[Api Key]"
 
 def google_search(query):
     params = {
